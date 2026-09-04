@@ -1,0 +1,30 @@
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+local.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+secrets.properties
+
+# Android / Gradle build output
+android/.gradle/
+android/build/
+android/app/build/
+
+# Swift / Xcode build output
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
